@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@600&display=swap");
+
+.heroSectionWrapper {
+  background: rgb(34, 193, 195);
+  background: radial-gradient(
+    circle,
+    rgba(34, 193, 195, 1) 0%,
+    rgba(252, 241, 218, 1) 98%
+  );
+  height: 60vh;
+  border-radius: 2rem;
+  padding: 5rem;
+}
+
+.heroSectionWrapper > h1 {
+  font-size: 5rem;
+}
+.heroSectionWrapper > h2 {
+  font-family: "Caveat", cursive;
+  font-size: 5rem;
+}
+.heroSectionWrapper > h2 + p {
+  font-size: 1.5rem;
+  color: #052675;
+  width: 32%;
+}
+
+.Searchformwrapper {
+  display: flex;
+  padding: 1rem;
+  width: 45%;
+  background-color: white;
+  justify-content: space-between;
+  border-radius: 0.5rem;
+  margin: 2rem 0rem;
+}
+
+input,
+select {
+  display: inline-block;
+  border: none;
+  width: 18rem;
+  border-bottom: 1px solid gray;
+  height: 3rem;
+  font-size: 1.6rem;
+}
+
+input,
+select::placeholder {
+  padding-bottom: 0.5rem;
+  padding-left: 0.5rem;
+}
+
+.Searchformwrapper img {
+  display: inline-block;
+}
+
+form + p {
+  color: #72747e;
+  font-size: 1.5rem;
+}

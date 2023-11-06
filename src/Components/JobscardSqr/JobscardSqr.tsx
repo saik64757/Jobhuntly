@@ -21,8 +21,12 @@ function JobsCardSquare() {
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit...</p>
       </div>
       <div>
-        <RoundPill />
-        <RoundPill />
+        <RoundPill color="#FF5733" bgColor="#FBCEB1">
+          Marketing
+        </RoundPill>
+        <RoundPill color="#00308F" bgColor="#F0F8FF">
+          Sales
+        </RoundPill>
       </div>
     </div>
   );

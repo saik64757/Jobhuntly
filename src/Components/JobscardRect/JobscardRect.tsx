@@ -14,10 +14,16 @@ function JobsCardRectangle() {
           <p>&nbsp;Madrid,Spain</p>
         </div>
         <div className={styles.PillsWrapper}>
-          <RoundPill />
+          <RoundPill color="#1de760" bgColor="#e1f7e8">
+            Full Time
+          </RoundPill>
           <hr />
-          <RoundPill />
-          <RoundPill />
+          <RoundPill color="#e4600e" bgColor="#efd5c5">
+            Marketing
+          </RoundPill>
+          <RoundPill color="#0c5ce1" bgColor="#b8cbec">
+            Design
+          </RoundPill>
         </div>
       </div>
     </div>

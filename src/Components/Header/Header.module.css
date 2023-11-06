@@ -1,0 +1,33 @@
+.headerWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.headerWrapperSection1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+}
+
+.headerWrapperSection1 > img {
+  width: 8rem;
+}
+
+.headerWrapperSection1 > h3 {
+  cursor: pointer;
+  color: #8e94a5;
+  font-size: 1.5rem;
+}
+.headerWrapperSection2 {
+  display: flex;
+  gap: 3rem;
+}
+
+.headerWrapperSection2 > hr {
+  margin-top: 0.8rem;
+  margin-right: 0.8rem;
+  height: 2.5rem;
+  border: 0.2px solid #eeeeee;
+}

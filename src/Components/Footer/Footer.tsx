@@ -48,7 +48,9 @@ const Footer = () => {
           <br />
           <input type="text" placeholder="Email Address" />
           <div>
-            <GeneralButton />
+            <GeneralButton fontSize="1.6rem" color="white" bgColor="#4640de">
+              Subscribe
+            </GeneralButton>
           </div>
         </div>
       </div>
