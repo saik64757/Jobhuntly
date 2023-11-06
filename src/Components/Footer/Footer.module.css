@@ -1,0 +1,107 @@
+.footerWrapper {
+  display: flex;
+  background-color: #202430;
+  padding: 5rem 8rem;
+  flex-direction: column;
+  font-size: 1.5rem;
+}
+
+.footerDetails {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  border-bottom: 1px solid #b7bdcb;
+  padding-bottom: 6rem;
+}
+.companyLogoandSummary {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  flex-basis: 28%;
+  justify-content: start;
+}
+
+.companyLogoandSummary > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.companyLogoandSummary > div > img {
+  border-radius: 5rem;
+}
+
+.companyLogoandSummary > div > p {
+  color: white;
+  font-size: 2rem;
+}
+.companyLogoandSummary > p {
+  color: #b7bdcb;
+  margin-top: 3rem;
+}
+
+.footerAboutSection {
+  list-style-type: none;
+  color: white;
+}
+.footerAboutSection li:first-child {
+  font-weight: 600;
+  font-size: 2rem;
+  color: white;
+}
+
+.footerAboutSection li {
+  margin-bottom: 1.5rem;
+  color: #b7bdcb;
+}
+.footerResourcesSection {
+  list-style-type: none;
+  color: white;
+}
+.footerResourcesSection li:first-child {
+  font-weight: 600;
+  font-size: 2rem;
+  color: white;
+}
+.footerResourcesSection li {
+  margin-bottom: 1.5rem;
+  color: #b7bdcb;
+}
+
+.jobNotifications > h2 {
+  color: white;
+}
+
+.jobNotifications > p {
+  color: #b7bdcb;
+  width: 26rem;
+}
+
+.jobNotifications > input {
+  width: 20rem;
+  height: 4rem;
+}
+
+.jobNotifications > input::placeholder {
+  padding: 1rem;
+}
+
+.jobNotifications > div {
+  display: inline-block;
+  margin-left: 1rem;
+}
+
+.socialMedaiLinkSection {
+  display: flex;
+  color: #b7bdcb;
+  justify-content: space-between;
+  margin-top: 4rem;
+}
+.socialMedaiLinkSection > div {
+  display: flex;
+  gap: 3rem;
+}
+.socialMedaiLinkSection > div img {
+  width: 3rem;
+}

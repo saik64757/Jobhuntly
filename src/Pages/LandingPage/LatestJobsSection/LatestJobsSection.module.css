@@ -1,0 +1,28 @@
+.headingWrapper > p {
+  font-size: 1.5rem;
+  color: rgb(25, 25, 229);
+  font-weight: 600;
+}
+.featuredJobCardsWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin-top: 6rem;
+  justify-content: space-between;
+}
+
+.sectionHeader {
+  font-family: "Prompt";
+  font-size: 4rem;
+}
+
+.sectionHeader::after {
+  content: " jobs open";
+  color: #26a4ff;
+}
+
+.headingWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
