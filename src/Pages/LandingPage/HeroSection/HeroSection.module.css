@@ -25,36 +25,6 @@
   width: 32%;
 }
 
-.Searchformwrapper {
-  display: flex;
-  padding: 1rem;
-  width: 45%;
-  background-color: white;
-  justify-content: space-between;
-  border-radius: 0.5rem;
-  margin: 2rem 0rem;
-}
-
-input,
-select {
-  display: inline-block;
-  border: none;
-  width: 18rem;
-  border-bottom: 1px solid gray;
-  height: 3rem;
-  font-size: 1.6rem;
-}
-
-input,
-select::placeholder {
-  padding-bottom: 0.5rem;
-  padding-left: 0.5rem;
-}
-
-.Searchformwrapper img {
-  display: inline-block;
-}
-
 form + p {
   color: #72747e;
   font-size: 1.5rem;

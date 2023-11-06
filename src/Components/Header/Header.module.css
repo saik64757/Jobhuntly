@@ -15,11 +15,15 @@
   width: 8rem;
 }
 
-.headerWrapperSection1 > h3 {
+.headerWrapperSection1 h3 {
   cursor: pointer;
   color: #8e94a5;
-  font-size: 1.5rem;
+  font-size: 1.8rem;
 }
+a {
+  text-decoration: none;
+}
+
 .headerWrapperSection2 {
   display: flex;
   gap: 3rem;

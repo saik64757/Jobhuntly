@@ -4,6 +4,7 @@
   display: inline-block;
   width: 30rem;
   height: 20rem;
+  transition: box-shadow 0.3s;
 }
 
 .CategoriesCardWrapper > h2 {
@@ -12,4 +13,9 @@
 
 .CategoriesCardWrapper > p {
   font-size: 1.6rem;
+}
+
+.CategoriesCardWrapper:hover {
+  background-color: rgb(25, 25, 229);
+  color: white;
 }
