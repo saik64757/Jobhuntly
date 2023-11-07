@@ -1,0 +1,22 @@
+.findjobsWrapper {
+  background: rgb(128, 215, 216);
+  background: radial-gradient(
+    circle,
+    rgb(149, 228, 230) 0%,
+    rgba(252, 241, 218, 1) 98%
+  );
+}
+
+.findjobsWrapper h1 {
+  font-size: 5rem;
+}
+
+.findjobsWrapper h1::after {
+  content: " dream job";
+  color: #26a4ff;
+}
+
+.findjobsWrapper h1 + p {
+  font-size: 2rem;
+  color: #4d4e54;
+}

@@ -2,6 +2,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin: 0 8rem;
 }
 
 .headerWrapperSection1 {
@@ -19,6 +20,8 @@
   cursor: pointer;
   color: #8e94a5;
   font-size: 1.8rem;
+  padding-bottom: 1rem;
+  margin-top: 1rem;
 }
 a {
   text-decoration: none;
@@ -34,4 +37,10 @@ a {
   margin-right: 0.8rem;
   height: 2.5rem;
   border: 0.2px solid #eeeeee;
+}
+
+.selectedoption {
+  background-color: white;
+  color: #4640de !important;
+  border-bottom: 2px solid #4640de;
 }

@@ -5,9 +5,16 @@ interface genButton {
   color?: string;
   bgColor?: string;
   children: React.ReactNode;
+  btnwidth?: string;
 }
 
-function GeneralButton({ fontSize, color, bgColor, children }: genButton) {
+function GeneralButton({
+  fontSize,
+  color,
+  bgColor,
+  children,
+  btnwidth,
+}: genButton) {
   return (
     <button
       className={clsx(styles.generalButton)}
@@ -15,6 +22,7 @@ function GeneralButton({ fontSize, color, bgColor, children }: genButton) {
         fontSize: fontSize,
         color: color,
         backgroundColor: bgColor,
+        width: btnwidth,
       }}
     >
       {children}
