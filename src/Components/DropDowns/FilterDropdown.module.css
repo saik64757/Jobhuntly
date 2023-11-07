@@ -1,0 +1,29 @@
+.filterDropDownWrapper {
+  width: 25%;
+  margin: 0 auto;
+}
+.dropDownHead {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+  margin-bottom: 2rem;
+}
+
+.dropDownHead div {
+  font-size: 2.5rem;
+}
+
+.checkboxListWrap {
+  padding: 0;
+}
+
+.checkboXinput {
+  width: 2rem;
+  margin-right: 2rem;
+}
+.checkboXlable {
+  font-size: 2rem;
+  position: relative;
+  bottom: 0.7rem;
+  color: #798090;
+}
