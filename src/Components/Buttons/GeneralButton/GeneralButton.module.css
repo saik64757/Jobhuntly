@@ -4,4 +4,22 @@
   padding: 0.7rem 2rem;
   background-color: #4640de;
   color: white;
+  cursor: pointer;
+  transition: transform 0.5s ease;
+}
+
+.generalButton:active {
+  animation: moveUpAndBack 1s ease both;
+}
+
+@keyframes moveUpAndBack {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-4px); /* Move up slowly */
+  }
+  100% {
+    transform: translateY(0); /* Move back slowly */
+  }
 }

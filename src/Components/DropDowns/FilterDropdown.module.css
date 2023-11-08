@@ -1,5 +1,5 @@
 .filterDropDownWrapper {
-  width: 25%;
+  width: auto;
 }
 .dropDownHead {
   display: flex;
@@ -10,6 +10,7 @@
 
 .dropDownHead div {
   font-size: 2.5rem;
+  cursor: pointer;
 }
 
 .checkboxListWrap {
@@ -21,7 +22,7 @@
   margin-right: 2rem;
 }
 .checkboXlable {
-  font-size: 2rem;
+  font-size: 1.6rem;
   position: relative;
   bottom: 0.7rem;
   color: #798090;

@@ -2,11 +2,27 @@ import styles from "./JobscardRect.module.css";
 import logo from "../../Assets/revolut_logo_icon_248648.svg";
 import RoundPill from "../Pills/RoundPill/RoundPill";
 
-function JobsCardRectangle() {
+interface JobsCardRectangleprops {
+  cardWidth?: string;
+  children?: React.ReactNode;
+}
+
+function JobsCardRectangle({ cardWidth, children }: JobsCardRectangleprops) {
   return (
-    <div className={styles.RectjobCardWrapper}>
-      <img src={logo} alt="CompanyLogo" width={"30rem"} height={"30rem"} />
+    <div
+      className={styles.RectjobCardWrapper}
+      style={{
+        width: cardWidth,
+      }}
+    >
       <div className={styles.ReactJobDetailsWrapper}>
+        <img
+          className={styles.JobDetailscompanyLogo}
+          src={logo}
+          alt="CompanyLogo"
+          width={"40rem"}
+          height={"40rem"}
+        />
         <h3>Social Media Assistant</h3>
         <div>
           <p>Revoult&nbsp;</p>
@@ -26,6 +42,7 @@ function JobsCardRectangle() {
           </RoundPill>
         </div>
       </div>
+      <div className={styles.buttonsWrapper}>{children}</div>
     </div>
   );
 }

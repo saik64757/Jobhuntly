@@ -81,23 +81,23 @@ export const Joblevel = [
 
 export const SalaryRange = [
   {
-    id: "700",
-    name: "700",
+    id: "$700-1000",
+    name: "$700-1000",
   },
   {
     id: "1000",
-    name: "1000",
+    name: "$1000-$1500",
   },
   {
     id: "1500",
-    name: "1500",
+    name: "$1500-$2000",
   },
   {
     id: "2000",
-    name: "2000",
+    name: "$2000-$3000",
   },
   {
     id: "3000",
-    name: "3000",
+    name: "$3000 & above",
   },
 ];

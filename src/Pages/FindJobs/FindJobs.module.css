@@ -24,4 +24,48 @@
 .allJobsWrapper {
   background-color: white;
   margin: 5rem 8rem;
+  display: flex;
+  justify-content: start;
+}
+
+.optionsSection {
+  flex-basis: 20%;
+}
+
+/* Job List Section */
+
+.AllJobListSectionWrapper {
+  flex-basis: 80%;
+}
+
+.AllJobListSectionWrapper > div:nth-child(2) {
+  margin: 3rem;
+}
+
+.AllJobListSection {
+  display: flex;
+  justify-content: space-between;
+  flex-basis: 90%;
+}
+
+.AllJobListSection > div + div > div {
+  display: inline-block;
+  margin: 0rem 1rem;
+  cursor: pointer;
+  font-size: 1.6rem;
+}
+
+.AllJobListSection > div + div > select {
+  font-size: 1.6rem;
+  width: auto;
+}
+
+.AllJobListSection > div > h1 {
+  font-size: 2.5rem;
+}
+
+.AllJobListSection > div > p,
+.AllJobListSection > div > label {
+  font-size: 1.6rem;
+  color: #9a9ca0;
 }
