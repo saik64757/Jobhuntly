@@ -4,6 +4,7 @@ export const jobs = [
     title: "HR Specialist",
     description: "Experienced with HR policies and systems.",
     employment_type: "Full time",
+    company: "Amazon",
     location: "Alexandria",
   },
   {
@@ -11,6 +12,7 @@ export const jobs = [
     title: "Social Medai Assistant",
     description: "Experienced with Social Medai Assistant.",
     employment_type: "Part time",
+    company: "Microsoft",
     location: "Gorgia",
   },
   {
@@ -18,6 +20,7 @@ export const jobs = [
     title: "Interactive Developer",
     description: "Experienced with Interactive Developer.",
     employment_type: "Full time",
+    company: "Google",
     location: "New York",
   },
   {
@@ -25,6 +28,7 @@ export const jobs = [
     title: "Email Marketing",
     description: "Experienced with Email Marketing.",
     employment_type: "Part time",
+    company: "Apple",
     location: "Colombia",
   },
   {
@@ -32,6 +36,7 @@ export const jobs = [
     title: "Lead Engineer",
     description: "Experienced with Lead Engineer.",
     employment_type: "Part time",
+    company: "Target",
     location: "Alexandria",
   },
   {
@@ -39,6 +44,7 @@ export const jobs = [
     title: "Product Designer",
     description: "Experienced with Product Designer.",
     employment_type: "Full time",
+    company: "Mirabel Tech",
     location: "Gorgia",
   },
   {
@@ -46,6 +52,7 @@ export const jobs = [
     title: "Customer Manager",
     description: "Experienced with Customer Manager.",
     employment_type: "Internship",
+    company: "HCL Tech",
     location: "New York",
   },
   {
@@ -53,6 +60,7 @@ export const jobs = [
     title: "Brand Marketing",
     description: "Experienced with Brand Marketing.",
     employment_type: "contract",
+    company: "TATA Tech",
     location: "Colombia",
   },
   {
@@ -60,6 +68,7 @@ export const jobs = [
     title: "HR Specialist",
     description: "Experienced with HR policies and systems.",
     employment_type: "Full time",
+    company: "Infosys",
     location: "Alexandria",
   },
   {
@@ -67,6 +76,7 @@ export const jobs = [
     title: "Social Medai Assistant",
     description: "Experienced with Social Medai Assistant.",
     employment_type: "Part time",
+    company: "Jupiter",
     location: "Gorgia",
   },
   {
@@ -74,6 +84,7 @@ export const jobs = [
     title: "Interactive Developer",
     description: "Experienced with Interactive Developer.",
     employment_type: "Full time",
+    company: "Uber",
     location: "New York",
   },
   {
@@ -81,6 +92,7 @@ export const jobs = [
     title: "Email Marketing",
     description: "Experienced with Email Marketing.",
     employment_type: "Part time",
+    company: "Space X",
     location: "Colombia",
   },
   {
@@ -88,6 +100,7 @@ export const jobs = [
     title: "Senior Engineer",
     description: "Experienced with Lead Engineer.",
     employment_type: "Part time",
+    company: "Paypal",
     location: "Alexandria",
   },
   {
@@ -95,6 +108,7 @@ export const jobs = [
     title: "Customer RelationShip Manager",
     description: "Experienced with Product Designer.",
     employment_type: "Remote",
+    company: "Audi",
     location: "Gorgia",
   },
   {
@@ -102,6 +116,7 @@ export const jobs = [
     title: "Customer Manager",
     description: "Experienced with Customer Manager.",
     employment_type: "Internship",
+    company: "TATA",
     location: "New York",
   },
   {
@@ -109,6 +124,7 @@ export const jobs = [
     title: "Junior Marketing",
     description: "Experienced with Brand Marketing.",
     employment_type: "contract",
+    company: "TCS",
     location: "Colombia",
   },
 ];

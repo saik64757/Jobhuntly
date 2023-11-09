@@ -1,5 +1,6 @@
 import clsx from "clsx";
 import styles from "./RoundPill.module.css";
+import { ClassNames } from "@emotion/react";
 
 interface roundPill {
   color: string;

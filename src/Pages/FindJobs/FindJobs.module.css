@@ -38,14 +38,18 @@
   flex-basis: 80%;
 }
 
-.AllJobListSectionWrapper > div:nth-child(2) {
-  margin: 3rem;
+.AllJobListSectionWrapper > div:nth-last-child() {
+  background-color: red;
 }
 
 .AllJobListSection {
   display: flex;
   justify-content: space-between;
   flex-basis: 90%;
+}
+
+.applyJobsList {
+  margin: 2rem;
 }
 
 .AllJobListSection > div + div > div {
@@ -68,4 +72,8 @@
 .AllJobListSection > div > label {
   font-size: 1.6rem;
   color: #9a9ca0;
+}
+
+.paginationWrappper {
+  margin-left: 40%;
 }

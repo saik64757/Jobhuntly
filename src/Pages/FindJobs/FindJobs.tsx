@@ -12,6 +12,9 @@ import LinearProgress, {
   linearProgressClasses,
 } from "@mui/material/LinearProgress";
 import { styled } from "@mui/material/styles";
+import { Box, Pagination } from "@mui/material";
+import { useState } from "react";
+import usePagination from "../../Utils/Pagination";
 
 const BorderLinearProgress = styled(LinearProgress)(({ theme }) => ({
   height: 5,
@@ -27,6 +30,17 @@ const BorderLinearProgress = styled(LinearProgress)(({ theme }) => ({
 }));
 
 function FindJobs() {
+  const [page, setPage] = useState(1);
+  const PER_PAGE = 6;
+  const count = Math.ceil(jobs.length / PER_PAGE);
+  const _DATA = usePagination(jobs, PER_PAGE);
+
+  function handleChange(event: React.ChangeEvent<unknown>, value: number) {
+    setPage(value);
+    _DATA.jump(value);
+    console.log(_DATA.currentData());
+  }
+
   return (
     <>
       <div className={styles.findjobsWrapper}>
@@ -65,15 +79,26 @@ function FindJobs() {
               <div>Box View</div>
             </div>
           </div>
-          {}
-          <div>
-            <JobsCardRectangle cardWidth="100%">
-              <GeneralButton btnwidth="18rem" fontSize="2rem">
-                Apply
-              </GeneralButton>
-              <BorderLinearProgress variant="determinate" value={50} />
-              <p>5 Applied of 10 Capacity</p>
-            </JobsCardRectangle>
+          {(_DATA.currentData() as unknown as any[])?.map((ele) => (
+            <div className={styles.applyJobsList}>
+              <JobsCardRectangle cardWidth="100%" newData={ele}>
+                <GeneralButton btnwidth="18rem" fontSize="2rem">
+                  Apply
+                </GeneralButton>
+                <BorderLinearProgress variant="determinate" value={50} />
+                <p>5 Applied of 10 Capacity</p>
+              </JobsCardRectangle>
+            </div>
+          ))}
+          <div className={styles.paginationWrappper}>
+            <Pagination
+              count={count}
+              color="primary"
+              page={page}
+              onChange={handleChange}
+              showFirstButton
+              showLastButton
+            />
           </div>
         </div>
       </section>
