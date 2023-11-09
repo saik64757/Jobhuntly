@@ -14,7 +14,7 @@ function FeaturedJobs() {
       </div>
       <div className={styles.featuredJobCardsWrapper}>
         {newArr.map(() => (
-          <JobsCardSquare />
+          <JobsCardSquare isCompanies={false} />
         ))}
       </div>
     </section>

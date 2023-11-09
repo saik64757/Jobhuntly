@@ -32,3 +32,12 @@
   color: #949494;
   font-size: 1.5rem;
 }
+
+.numberofJobs {
+  display: inline-block;
+
+  background-color: rgb(240, 212, 240);
+  color: purple;
+  padding: 1rem;
+  border-radius: 1rem;
+}

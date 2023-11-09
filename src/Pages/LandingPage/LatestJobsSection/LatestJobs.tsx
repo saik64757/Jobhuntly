@@ -1,5 +1,6 @@
 import JobsCardRectangle from "../../../Components/JobscardRect/JobscardRect";
 import styles from "./LatestJobsSection.module.css";
+import { jobs } from "../../../Data/JobsData";
 
 function LatestJobs() {
   let newArr = Array.from({ length: 6 }, (idx) => 0);
@@ -13,8 +14,8 @@ function LatestJobs() {
         </p>
       </div>
       <div className={styles.featuredJobCardsWrapper}>
-        {newArr.map(() => (
-          <JobsCardRectangle />
+        {(jobs as unknown as any[]).slice(0, 6).map((ele) => (
+          <JobsCardRectangle newData={ele} />
         ))}
       </div>
     </section>

@@ -54,6 +54,18 @@ export const categories = [
     id: "tech",
     name: "Technology",
   },
+  {
+    id: "Ftech",
+    name: "Fintech",
+  },
+  {
+    id: "hoisting",
+    name: "Hoisting",
+  },
+  {
+    id: "aerospace",
+    name: "AeroSpace",
+  },
 ];
 
 export const Joblevel = [
