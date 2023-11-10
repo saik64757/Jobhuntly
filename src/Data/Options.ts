@@ -66,6 +66,14 @@ export const categories = [
     id: "aerospace",
     name: "AeroSpace",
   },
+  {
+    id: "cloud",
+    name: "Cloud",
+  },
+  {
+    id: "healthCare",
+    name: "Health Care",
+  },
 ];
 
 export const Joblevel = [
@@ -111,5 +119,32 @@ export const SalaryRange = [
   {
     id: "3000",
     name: "$3000 & above",
+  },
+];
+
+export const Companysize = [
+  {
+    id: "1-50",
+    name: "1-50",
+  },
+  {
+    id: "51-150",
+    name: "51-150",
+  },
+  {
+    id: "151-250",
+    name: "151-250",
+  },
+  {
+    id: "251-500",
+    name: "251-500",
+  },
+  {
+    id: "501-1000",
+    name: "501-1000",
+  },
+  {
+    id: "1000-above",
+    name: "501-above",
   },
 ];

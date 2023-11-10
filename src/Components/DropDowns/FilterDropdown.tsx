@@ -13,7 +13,7 @@ function FilterDropdown({ filterOptions, name }: FilterDropdownProps) {
       <div className={styles.dropDownHead}>
         <h2>{name}</h2>
         {isOpen ? (
-          <div onClick={() => setIopen(!isOpen)} >&#11205;</div>
+          <div onClick={() => setIopen(!isOpen)}>&#11205;</div>
         ) : (
           <div onClick={() => setIopen(!isOpen)}> &#11206;</div>
         )}

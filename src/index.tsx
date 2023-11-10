@@ -7,6 +7,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import FindJobs from "./Pages/FindJobs/FindJobs";
 import BrowserCompanies from "./Pages/BrowserCompanies/BrowserCompanies";
 import LandingPage from "./Pages/LandingPage/LandingPage";
+import BrowserCompaniesAllJobs from "./Pages/BrowserCompanies/BrowserCompaniesAllJobs";
 
 const router = createBrowserRouter([
   {
@@ -24,6 +25,10 @@ const router = createBrowserRouter([
       {
         path: "/browserCompanies",
         element: <BrowserCompanies />,
+      },
+      {
+        path: "/browser-Companies-alljobs",
+        element: <BrowserCompaniesAllJobs />,
       },
     ],
   },
