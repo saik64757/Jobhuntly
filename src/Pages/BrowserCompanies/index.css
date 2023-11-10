@@ -1,0 +1,25 @@
+/* Styles Override for the Slides */
+
+.slick-prev:before {
+  color: #4640de;
+  font-size: 4rem;
+}
+.slick-next:before {
+  color: #4640de;
+  font-size: 4rem;
+}
+.slick-slide > div {
+  margin: 1rem 1rem;
+}
+
+.slick-slider {
+  margin-bottom: 4rem;
+}
+.slick-next {
+  right: -2.2rem;
+  color: #4640de;
+}
+.slick-prev {
+  left: -4rem;
+  color: #4640de;
+}
